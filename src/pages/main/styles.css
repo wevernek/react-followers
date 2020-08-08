@@ -1,0 +1,59 @@
+.followers-list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.followers-list .followers-card {
+  background-color: #24292e;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  padding-top: 50px;
+  position: relative;
+  width: 250px;
+}
+
+.followers-list .followers-card .photo {
+  border-radius: 50%;
+  height: 120px;
+  left: 0;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: -60px;
+  width: 120px;
+}
+
+.followers-list .followers-card .photo img {
+  width: 100%;
+}
+
+.followers-list .followers-card .texts {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.followers-list .followers-card .texts h2, p {
+  margin: 0px;
+}
+
+.followers-list .followers-card .texts button {
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+  margin-top: 10px;
+  padding: 0px 30px;
+  transition: all ease .2s;
+}
+
+.followers-list .followers-card .texts button:hover {
+  transform: scale(1.05);
+}
